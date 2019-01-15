@@ -7,9 +7,11 @@ var timesList = [
   { hours: 0, minutes: 0 },
   { hours: 0, minutes: 0 },
   { hours: 0, minutes: 0 },
+  { hours: 0, minutes: 0 },
   { hours: 0, minutes: 0 }
 ];
-var time = { hours: 8, minutes: 0 };
+var time = { hours: 7, minutes: 32 };
+time.minutes += 15;
 function fixTime() {
   let base = Math.floor(time.minutes / 60);
   let rem = time.minutes % 60;
